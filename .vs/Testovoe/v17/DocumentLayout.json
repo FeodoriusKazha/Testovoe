@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Work\\Testovoe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{190DD499-A752-43EF-A8F9-06828A979948}|Testovoe\\Testovoe.csproj|c:\\work\\testovoe\\testovoe\\hesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190DD499-A752-43EF-A8F9-06828A979948}|Testovoe\\Testovoe.csproj|solutionrelative:testovoe\\hesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{190DD499-A752-43EF-A8F9-06828A979948}|Testovoe\\Testovoe.csproj|c:\\work\\testovoe\\testovoe\\recursivefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190DD499-A752-43EF-A8F9-06828A979948}|Testovoe\\Testovoe.csproj|solutionrelative:testovoe\\recursivefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Hesh.cs",
+              "DocumentMoniker": "C:\\Work\\Testovoe\\Testovoe\\Hesh.cs",
+              "RelativeDocumentMoniker": "Testovoe\\Hesh.cs",
+              "ToolTip": "C:\\Work\\Testovoe\\Testovoe\\Hesh.cs",
+              "RelativeToolTip": "Testovoe\\Hesh.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAcwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:23:37.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RecursiveFunction.cs",
               "DocumentMoniker": "C:\\Work\\Testovoe\\Testovoe\\RecursiveFunction.cs",
               "RelativeDocumentMoniker": "Testovoe\\RecursiveFunction.cs",
               "ToolTip": "C:\\Work\\Testovoe\\Testovoe\\RecursiveFunction.cs",
               "RelativeToolTip": "Testovoe\\RecursiveFunction.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T20:16:03.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Work\\Testovoe\\Testovoe\\Program.cs",
               "RelativeDocumentMoniker": "Testovoe\\Program.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Testovoe\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:14:32.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T20:14:32.957Z"
             }
           ]
         }

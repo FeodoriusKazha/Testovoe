@@ -6,13 +6,12 @@
   {
     int hashKey = GenerateHash(name);
 
-    if (!contacts.ContainsKey(hashKey))
-    {
-      contacts[hashKey] = new List<Contact>();
-    }
+    if (!contacts.ContainsKey(hashKey)) contacts[hashKey] = new List<Contact>();
 
     contacts[hashKey].Add(new Contact(name, phoneNumber));
     Console.WriteLine($"Контакт {name} добавлен.");
+    Console.WriteLine("Нажмите любую клавишу для возврата в главное меню...");
+    Console.ReadKey();
   }
 
   public void RemoveContact(string name)
@@ -24,8 +23,7 @@
       var contactList = contacts[hashKey];
       contactList.RemoveAll(c => c.Name == name);
 
-      if (contactList.Count == 0)
-        contacts.Remove(hashKey);
+      if (contactList.Count == 0) contacts.Remove(hashKey);
 
       Console.WriteLine($"Контакт {name} удален.");
     }
@@ -33,6 +31,8 @@
     {
       Console.WriteLine($"Контакт {name} не найден.");
     }
+    Console.WriteLine("Нажмите любую клавишу для возврата в главное меню...");
+    Console.ReadKey();
   }
 
   public void EditContact(string name, string newPhoneNumber)
@@ -48,12 +48,16 @@
         {
           contact.PhoneNumber = newPhoneNumber;
           Console.WriteLine($"Номер {name} обновлен.");
+          Console.WriteLine("Нажмите любую клавишу для возврата в главное меню...");
+          Console.ReadKey();
           return;
         }
       }
     }
 
     Console.WriteLine($"Контакт {name} не найден.");
+    Console.WriteLine("Нажмите любую клавишу для возврата в главное меню...");
+    Console.ReadKey();
   }
 
   public void FindContact(string name)
@@ -68,12 +72,16 @@
         if (contact.Name == name)
         {
           Console.WriteLine($"Телефон {name}: {contact.PhoneNumber}");
+          Console.WriteLine("Нажмите любую клавишу для возврата в главное меню...");
+          Console.ReadKey();
           return;
         }
       }
     }
 
     Console.WriteLine($"Контакт {name} не найден.");
+    Console.WriteLine("Нажмите любую клавишу для возврата в главное меню...");
+    Console.ReadKey();
   }
 
   private int GenerateHash(string name)

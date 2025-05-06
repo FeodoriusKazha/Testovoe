@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Testovoe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c177fd88e0d0b94a1750e19ce798cf52a08aa887")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1825c97a93c58c4f23a3ffbd2b71274187d0fbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Testovoe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Testovoe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
