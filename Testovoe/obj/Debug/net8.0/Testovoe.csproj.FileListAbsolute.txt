@@ -26,3 +26,4 @@ C:\Work\Testovoe\Testovoe\obj\Debug\net8.0\refint\Testovoe.dll
 C:\Work\Testovoe\Testovoe\obj\Debug\net8.0\Testovoe.pdb
 C:\Work\Testovoe\Testovoe\obj\Debug\net8.0\Testovoe.genruntimeconfig.cache
 C:\Work\Testovoe\Testovoe\obj\Debug\net8.0\ref\Testovoe.dll
+C:\Work\Testovoe\Testovoe\obj\Debug\net8.0\Testovoe.sourcelink.json
